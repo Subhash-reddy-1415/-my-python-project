@@ -1,6 +1,6 @@
 print("WELCOME TO TWO INPUT CALCULATOR")
-num_one=float(input("ENTER THE NUMBER="))
-num_two=float(input("ENTER THE NUMBER="))
+num_one=float(input("ENTER THE FIRST NUMBER="))
+num_two=float(input("ENTER THE SECOND NUMBER="))
 print("AVAILABLE OPERATORS")
 print("1.ADDITION (+)")
 print("2.SUBTRACTION (-)")
@@ -17,7 +17,10 @@ elif choice=="3":
     multiplication=num_one * num_two
     print("MULTIPLICATION OF TWO NUMBERS=",multiplication)
 elif choice=="4":
-    division=num_one / num_two
-    print("DIVISION OF TWO NUMBERS=",division)
+    if num_two !=0:
+        division=num_one / num_two
+        print("DIVISION OF TWO NUMBERS=",division)
+    else:
+    print("WE CAN'T DIVIDE THIS NUMBER")
 else:
     print("INVALID CHOICE")
