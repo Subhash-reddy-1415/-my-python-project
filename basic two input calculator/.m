@@ -1,4 +1,3 @@
-
 print("WELCOME TO TWO INPUT CALCULATOR")
 num_one=float(input("ENTER THE NUMBER="))
 num_two=float(input("ENTER THE NUMBER="))
