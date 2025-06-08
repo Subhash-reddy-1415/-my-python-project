@@ -1,3 +1,4 @@
+```
 print("WELCOME TO TWO INPUT CALCULATOR")
 num_one=float(input("ENTER THE FIRST NUMBER="))
 num_two=float(input("ENTER THE SECOND NUMBER="))
@@ -23,4 +24,4 @@ elif choice=="4":
     else:
     print("WE CAN'T DIVIDE THIS NUMBER")
 else:
-    print("INVALID CHOICE")
+    print("INVALID CHOICE")```
