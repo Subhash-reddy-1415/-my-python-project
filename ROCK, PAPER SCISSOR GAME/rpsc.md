@@ -1,3 +1,4 @@
+```
 import random
 print("WELCOME TO ROCK PAPER SCISSOR Game:")
 user_move=input("ENTER YOUR CHOICE=")
@@ -17,3 +18,4 @@ elif user_move=="scissor" and computer_move=="paper":
     print("YOU WIN")
 else:
     print("COMPUTER WINS")
+```
